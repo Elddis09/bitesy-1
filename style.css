@@ -1,0 +1,369 @@
+.container {
+  position: relative;
+}
+.search-container-menu {
+  position: relative;
+}
+
+.search-container-menu .form-control {
+  padding-right: 300px; /* Sesuaikan jarak kanan input */
+}
+
+.search-container-menu .btn {
+  position: absolute;
+  top: 50%;
+  right: 1px; /* Sesuaikan jarak dari sisi kanan */
+  transform: translateY(-50%);
+}
+
+.container-alamat {
+  padding: 1rem;
+}
+
+.elemen {
+  margin-right: 50px; /* Sesuaikan jarak atas */
+}
+.elemen a {
+  padding: 0.5rem;
+  color: rgb(80, 77, 77);
+}
+
+.elemen a:hover {
+  background-color: #cbebd5;
+  color: azure;
+  border-radius: 5px;
+}
+
+.content-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  background-color: #cbebd5;
+}
+
+.content-navbar a {
+  display: inline-flex;
+  padding: 0 1rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+
+.content-navbar a:hover {
+  color: rgb(255, 255, 255);
+}
+
+/* Component */
+.image-component {
+  position: relative; /* Mengatur posisi gambar menjadi relatif */
+  z-index: -1; /* Menentukan urutan tampilan gambar di belakang */
+}
+
+.component-container {
+  position: absolute;
+  top: 55%; /* Posisi vertikal ke tengah */
+  left: 50%; /* Posisi horizontal ke tengah */
+  height: 20rem;
+  width: 90%;
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Menggeser .component-container ke tengah */
+  background-color: rgb(
+    226,
+    254,
+    255
+  ); /* Ubah warna latar belakang sesuai kebutuhan */
+  padding: 20px; /* Sesuaikan padding sesuai kebutuhan */
+  border-radius: 10px;
+}
+
+.component-container h3,
+h3 span {
+  display: block;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.btn-side {
+  display: inline-block;
+  margin: 4rem 2px;
+  padding-left: 20rem;
+  background-color: #cbebd5;
+}
+
+/* Tentang Kami */
+.about {
+  display: flex;
+  margin: 0 4rem;
+}
+
+/* .about-image{
+  height: 50px;
+  width: auto;
+} */
+
+.title {
+  margin-top: 50px;
+}
+
+.title h1 {
+  color: rgb(70, 70, 70);
+}
+
+.title p {
+  text-align: justify;
+}
+
+/* Produk Kategori */
+.container-produk {
+  padding: 4rem;
+}
+
+.container-produk h3 {
+  color: rgb(70, 70, 70);
+}
+
+.container-produk .header-produk {
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-produk .header-produk .pilihan-usia {
+  border: 1px solid;
+  background-color: #cbebd5;
+  padding: 0.5rem;
+  border-radius: 60px;
+}
+
+.container-produk .header-produk .pilihan-usia a {
+  border: 1px solid;
+  padding: 6px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+}
+
+.container-produk .header-produk .pilihan-usia a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.content-produk {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+  padding-top: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.container-produk .content-produk .produk1 {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.container-produk .content-produk .produk1 img {
+  border-radius: 10%;
+  height: 250px;
+  width: 250px;
+  margin: 7px;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.container-produk .content-produk .produk1 img:hover {
+  transform: scale(1.05);
+}
+
+.container-produk .content-produk .produk1 .produk-title {
+  margin: 1rem auto 0.5rem;
+  margin-bottom: 1px;
+}
+
+.container-produk .content-produk .produk1 .detail-produk {
+  color: #95c2a3;
+}
+
+.container-produk .content-produk .produk1 .detail-produk:hover {
+  color: #699476;
+}
+
+.container-produk .content-produk .produk1 .buy {
+  display: flex;
+  justify-content: center;
+  padding: 1px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-produk .content-produk .produk1 .buy .button {
+  border: 1px solid #95c2a3;
+  width: 100px;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: #cbebd5;
+  text-align: start;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding-left: 3px;
+  font-weight: 500;
+}
+
+.container-produk .content-produk .produk1 .buy .button:hover {
+  background-color: #699476;
+}
+
+.container-produk .content-produk .produk1 .buy i:hover {
+  color: #699476;
+}
+
+.container-produk .content-produk .other {
+  color: #95c2a3;
+  font-weight: 500;
+}
+
+.container-produk .content-produk .other:hover {
+  color: #699476;
+}
+
+/* Section Edukasi */
+.container-edukasi {
+  margin: 4rem;
+  margin-top: 1px;
+  display: flex;
+  justify-content: start; /* Untuk membuat konten di tengah horizontal */
+  align-items: flex-start; /* Untuk menyimpan konten di kiri */
+  position: relative; /* Untuk posisi relatif agar child element mempertahankan posisi di dalamnya */
+}
+
+.container-edukasi .image-edukasi {
+  position: absolute;
+  width: 68rem;
+  z-index: -1;
+}
+
+.container-edukasi .text-header {
+  position: absolute;
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  color: rgb(62, 62, 62);
+  margin-top: 70px;
+}
+
+.container-edukasi .detail {
+  position: absolute;
+  display: block;
+  text-align: justify;
+  margin-top: 170px;
+  max-width: 500px;
+}
+
+.container-edukasi .btn {
+  border: 1px solid #699476;
+  margin-top: 300px;
+  margin-left: 100px;
+  background-color: #cbebd5;
+  font-weight: 500;
+}
+
+.container-edukasi .btn:hover {
+  color: azure;
+  background-color: #699476;
+}
+
+.container-edukasi .gambar6 {
+  margin-left: auto; /* Menggeser gambar ke kanan */
+  display: block;
+  width: 500px;
+  margin-top: 20px;
+}
+
+/* Service */
+.container-service {
+  margin: 4rem;
+}
+
+.container-service h3 {
+  display: flex;
+  justify-content: center;
+  color: rgb(78, 78, 78);
+}
+
+.container-service .row {
+  height: 20rem;
+  display: flex;
+  text-align: justify;
+  align-items: center;
+}
+
+.container-service .row .food {
+  font-size: 2rem;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.container-service .row img {
+  display: grid;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.container-service .row ul li span {
+  font-weight: bold;
+}
+
+/* Footer */
+
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  margin: 0 4rem;
+}
+footer .line{
+  border: 1px solid #699476;
+  margin-bottom: 20px;
+}
+
+footer .row{
+  display: flex;
+  margin: 1px;
+  justify-content: center;
+  height: 13rem;
+  font-weight: 600;
+
+}
+
+
+footer .row img{
+  margin-top: 3rem;
+}
+
+footer .setting a, .snk a, .kontak p{
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+}
+
+footer .setting a:hover, .snk a:hover{
+  color: #88a992;
+}
+
+footer .kontak .socials a{
+  color: #699476;
+  margin: 7px;
+}
+footer .kontak .socials a:hover{
+  color: black;
+}

@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #cbebd5;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  height: 555px;
+  border-radius: 20px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container .form-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container .form-container img{
+  margin: 0;
+  margin-bottom: 400px;
+}
+
+
+h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 140px;
+  text-align: center;
+  font-weight: bold;
+  color: #597261;
+}
+
+.container .form-container .hint p {
+  justify-content: center;
+  margin: 10px;
+  color: #597261;
+}
+
+.container .form-container .hint p a {
+  text-decoration: none;
+  color: #597261;
+}
+
+.container .form-container .hint p a:hover {
+  color: #597261;
+  font-weight: 600;
+}
+
+.kiri img {
+  width: 450px;
+  height: 100%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+input {
+  display: flex;
+  align-items: center;
+  outline: #597261;
+  width: 150%;
+  margin: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #597261;
+
+}
+
+.btn {
+  padding: 8px;
+  width: 252px;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color:#6b8373;
+  text-decoration: none;
+}
+
+.btn:hover {
+  font-weight: 600;
+  background: rgb(149, 187, 164);
+}
+
+.other {
+  display: block;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.other a {
+  margin-top: 10px;
+  margin: 3px;
+  color: #597261;
+  text-decoration: none;
+}
+
+.other a:hover{
+  color: black;
+}
